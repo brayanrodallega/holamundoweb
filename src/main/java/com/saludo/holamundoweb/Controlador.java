@@ -9,6 +9,6 @@ public class Controlador {
     @GetMapping("/")
     public String mensaje(){
         System.out.println("Mensaje de exito");
-        return "Hola mundo web con Spring Boot web";
+        return "Hola mundo, desde Spring Boot web";
     }
 }
